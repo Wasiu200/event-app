@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./common/navbar";
+import Navbar from "./common/navbar.jsx";
 import Event from "./event-holder/Event.jsx";
 import MyTicket from "./event-holder/MyTicket.jsx";
 import AboutProject from "./event-holder/AboutProject.jsx";
