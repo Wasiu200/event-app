@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all{
+        max-width: 700px;
+    color: rgb(230, 244, 241);
+    box-shadow: rgba(0, 0, 0, 0.306) 0px 8px 24px;
+    line-height: 1.6;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgb(12, 28, 36);
+    border-radius: 14px;
+}
+
+.all > div {
+    margin-bottom: 25px;
+    padding: 18px;
+    background: rgb(17, 37, 47);
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.08);
+    border-image: initial;
+    transition: transform 0.2s;
+}
+
+.all > div:hover {
+    transform: translateY(-3px);
+    border-color: rgba(45, 212, 191, 0.4);
+}
+
+.about{
+margin-bottom: 25px;
+    padding: 18px;
+    background: rgb(17, 37, 47);
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.08);
+    border-image: initial;
+    transition: transform 0.2s;
+}
+
+h1{
+    color: aqua;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+li{
+    margin-left: 40px;
+}
+
+h3{
+    color: aqua;
+    
+}
+
+.enj{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.lower{
+    text-align: center;
+}
+
+.wer{
+    margin-right: 5px;
+}
+.low{
+margin-left: 5px;
+}

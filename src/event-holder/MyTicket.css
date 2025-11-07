@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.booked{
+    text-align: center;
+    padding-top: 50px;
+    line-height: 35px;
+}
+
+button:hover{
+background-color: aqua;
+}
+
+.koob{
+    padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #2dd4bf, #14b8a6);
+    background-color: rgba(0, 0, 0, 0);
+  color: #0c1c24;
+  font-weight: 600;
+  font-size: .9rem;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 4px 10px #2dd4bf40;
+  transition: all .3s ease;
+}
+.icons{
+    color: goldenrod;
+}
