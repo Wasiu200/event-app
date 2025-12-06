@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "./Navbar.css";
 import { FaArrowRightLong } from "react-icons/fa6";
-const navbar = () => {
+const Navbar = () => {
   return (
     <>
       <div className="nav">
@@ -32,4 +32,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
